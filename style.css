@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+.margin{
+    margin-right: 99px;
+}
 body{
     width: 1450px;
     overflow-x: auto;
@@ -72,4 +75,68 @@ header .banner button a{
     letter-spacing: 0%;
     text-align: center;
     text-decoration: none;
+}
+.wwd{
+    width: 946px;
+    height: 1072px;
+    padding: 80px 97px 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin-top: 80px;
+}
+.wwd h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.wwd p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+.wwd .wwd-content-container{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 90px;
+}
+.wwd .wwd-content{
+    width: 477px;
+    height: 220px;
+}
+.wwd h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.wwd button {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 15px 20px 15px 20px;
+}
+.wwd button a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 10px;
 }
