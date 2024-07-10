@@ -247,12 +247,17 @@ margin-left: 150px;
     background: rgb(255, 255, 255);
     padding: 40px;
 }
-.support{
-    padding: 64px 48px 64px 48px;
+#support{
+    width: 1140px;
+    height: 314px;
+    background-size: cover;
     border-radius: 16px;
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    margin-top: 1000px;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    background-image:  url("./assets/handshake.jpg");
 }
-.support h3{
+#support h3{
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
     font-size: 32px;
@@ -260,8 +265,9 @@ margin-left: 150px;
     line-height: 36px;
     letter-spacing: 0%;
     text-align: center;
+    padding-top: 50px;
 }
-.support p{
+#support p{
     color: rgb(255, 255, 255 , 0.7);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -270,16 +276,46 @@ margin-left: 150px;
     letter-spacing: 0%;
     text-align: center;
 }
-.support form input[type="text"]{
-    color: rgba(13, 19, 33, 0.4);
+#support form{
+    text-align: center;
+}
+#support form input{
     font-family: Azeret Mono;
+    padding: 17px 22px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    text-align: center;
+}
+#support form input[type="text"]{
+    color: rgba(13, 19, 33, 0.4);
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
-    letter-spacing: 0%;
-    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    width: 560px;
+    height: 57px;
+    margin: 0px 16px;
 }
-.support form input [type="submit"]{
+#support form input [type="submit"]{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    background: rgb(255, 255, 255);
+    width: 120px;
+    height: 58px;
+}
+#footer {
+    margin-top: 80px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 32px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+#footer .commitment{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 20px;
@@ -287,4 +323,7 @@ margin-left: 150px;
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+}
+#footer #image img{
+    margin-right: 20px;
 }
