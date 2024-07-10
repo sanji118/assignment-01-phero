@@ -169,8 +169,81 @@ header .banner button a{
 }
 #inspiration iframe{
     border-radius: 16px;
-    background: url(Jhankar);
     width: 1076px;
     height: 550px;
     padding: 32px;
+}
+#target{
+width: 1140px;
+height: 866px;
+margin-top: 80px;
+margin-left: 150px;
+
+}
+#target .target-current , #target .target-next{
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+    margin-top: 90px;
+}
+#target .target-current div{
+    width: 300px;
+    border-radius: 16px;
+    padding: 40px;
+}
+#target h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#target p{
+    color: rgb(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+#target p {
+    text-align: center;
+}
+#target .target-current p , #target .target-next p{
+    text-align: left;
+}
+#target h4{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+#target img{
+    margin: 0px 24px;
+}
+#target .target-next img{
+    margin-top: 35px;
+}
+#target a{
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+#target .target-next{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
 }
