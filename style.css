@@ -83,6 +83,7 @@ header .banner button a{
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     margin-top: 80px;
+    margin-left: 150px;
 }
 .wwd h3{
     color: rgb(13, 19, 33);
@@ -139,4 +140,37 @@ header .banner button a{
     text-align: center;
     text-decoration: none;
     margin: 0px 10px;
+}
+#inspiration{
+    width: 1140px;
+    height: 775px;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+#inspiration h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#inspiration p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+#inspiration iframe{
+    border-radius: 16px;
+    background: url(Jhankar);
+    width: 1076px;
+    height: 550px;
+    padding: 32px;
 }
